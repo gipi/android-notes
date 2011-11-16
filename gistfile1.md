@@ -15,3 +15,8 @@ THREAD
 ------
 
 **Don't violate the single thread for the UI** [Painless threading](http://developer.android.com/resources/articles/painless-threading.html)
+
+ANR
+---
+
+ I/dalvikvm(  292): Wrote stack traces to '/data/anr/traces.txt'
