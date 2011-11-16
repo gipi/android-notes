@@ -14,4 +14,4 @@ Failed to set PTK to the driver
 THREAD
 ------
 
-**Don't violate the single thread for the UI**
+**Don't violate the single thread for the UI** [Painless threading](http://developer.android.com/resources/articles/painless-threading.html)
