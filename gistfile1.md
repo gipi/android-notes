@@ -19,4 +19,8 @@ THREAD
 ANR
 ---
 
+In case you are presented with a ANR dialog you can see in the logcat the following message
+
  I/dalvikvm(  292): Wrote stack traces to '/data/anr/traces.txt'
+
+Pull the file via adb and look at the stack trace.
