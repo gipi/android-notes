@@ -6,8 +6,8 @@ From terminal
 
 shows the android log.
 
-Failed to set PTK to the driver
- # modprobe ieee80211_crypt_tkip
+ > Failed to set PTK to the driver
+ > # modprobe ieee80211_crypt_tkip
 
  - http://androidcookbook.com/ViewTOC.seam
 
