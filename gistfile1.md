@@ -24,3 +24,5 @@ In case you are presented with a ANR dialog you can see in the logcat the follow
  > I/dalvikvm(  292): Wrote stack traces to '/data/anr/traces.txt'
 
 Pull the file via adb and look at the stack trace.
+
+If you use a spinning wheel as loading indication, keep attention that is actuallty animated, otherwise you are in the UI thread and you are not doing right the threading stuffs.
