@@ -11,6 +11,11 @@ shows the android log.
 
  - http://androidcookbook.com/ViewTOC.seam
 
+BROWSER
+-------
+
+ - [Change the User Agent](http://www.abidibo.net/blog/2011/09/26/change-user-agent-android-default-browser/)
+
 THREAD
 ------
 
