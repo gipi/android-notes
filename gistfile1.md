@@ -2,7 +2,7 @@
 
 From terminal
 
- # logcat
+    # logcat
 
 shows the android log.
 
