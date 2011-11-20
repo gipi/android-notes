@@ -31,3 +31,8 @@ In case you are presented with a ANR dialog you can see in the logcat the follow
 Pull the file via adb and look at the stack trace.
 
 If you use a spinning wheel as loading indication, keep attention that is actuallty animated, otherwise you are in the UI thread and you are not doing right the threading stuffs.
+
+RESOURCES
+---------
+
+ - [Asset studio](http://android-ui-utils.googlecode.com/hg/asset-studio/dist/index.html)
