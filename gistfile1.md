@@ -36,3 +36,7 @@ RESOURCES
 ---------
 
  - [Asset studio](http://android-ui-utils.googlecode.com/hg/asset-studio/dist/index.html)
+
+STYLE
+-----
+ - [Defining custom attributes](http://stackoverflow.com/questions/3441396/defining-custom-attrs)
