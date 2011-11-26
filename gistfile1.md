@@ -40,3 +40,8 @@ RESOURCES
 STYLE
 -----
  - [Defining custom attributes](http://stackoverflow.com/questions/3441396/defining-custom-attrs)
+
+PORTING
+-------
+
+ - http://gstreamer.freedesktop.org/wiki/GstreamerAndroid_InstallInstructions
