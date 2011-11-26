@@ -11,6 +11,10 @@ shows the android log.
 
  - http://androidcookbook.com/ViewTOC.seam
 
+Package bla.bla.bla has corrupt installation 
+ - http://osdir.com/ml/android-ndk/2010-08/msg00263.html
+ - http://www.pawfal.org/dave/blog/category/complaint/
+
 BROWSER
 -------
 
