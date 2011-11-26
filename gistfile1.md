@@ -15,6 +15,8 @@ Package bla.bla.bla has corrupt installation
  - http://osdir.com/ml/android-ndk/2010-08/msg00263.html
  - http://www.pawfal.org/dave/blog/category/complaint/
 
+ > $ adb shell cat /data/system/packages.list
+
 BROWSER
 -------
 
