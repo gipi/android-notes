@@ -36,6 +36,7 @@ RESOURCES
 ---------
 
  - [Asset studio](http://android-ui-utils.googlecode.com/hg/asset-studio/dist/index.html)
+ - https://code.google.com/p/android-ui-utils/
 
 STYLE
 -----
