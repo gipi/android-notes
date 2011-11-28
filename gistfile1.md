@@ -53,3 +53,9 @@ PORTING
 -------
 
  - http://gstreamer.freedesktop.org/wiki/GstreamerAndroid_InstallInstructions
+
+BLOGROLL
+--------
+
+ - http://www.pushing-pixels.org/category/android
+ - http://blog.stylingandroid.com/
