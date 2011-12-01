@@ -44,6 +44,7 @@ RESOURCES
  - [Asset studio](http://android-ui-utils.googlecode.com/hg/asset-studio/dist/index.html)
  - https://code.google.com/p/android-ui-utils/
  - http://code.google.com/p/apps-for-android/
+ - http://wiresareobsolete.com/2010/06/9-patches/
 
 STYLE
 -----
