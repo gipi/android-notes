@@ -56,6 +56,11 @@ PORTING
  - http://gstreamer.freedesktop.org/wiki/GstreamerAndroid_InstallInstructions
  - http://mobilepearls.com/labs/native-android-api/
 
+DEBUGGING
+---------
+
+ - http://omappedia.org/wiki/Android_Debugging
+
 BLOGROLL
 --------
 
