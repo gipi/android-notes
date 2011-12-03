@@ -1,4 +1,3 @@
- - http://blog.linuxconsulting.ro/2010/04/porting-wifi-drivers-to-android.html
 
 From terminal
 
@@ -60,6 +59,13 @@ DEBUGGING
 ---------
 
  - http://omappedia.org/wiki/Android_Debugging
+
+LOW LEVEL
+---------
+
+ - http://www.kandroid.org/online-pdk/guide/build_cookbook.html
+ - http://blog.linuxconsulting.ro/2010/04/porting-wifi-drivers-to-android.html
+
 
 BLOGROLL
 --------
