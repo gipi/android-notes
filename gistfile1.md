@@ -18,7 +18,8 @@ Package bla.bla.bla has corrupt installation
 JAVA
 ----
 
- - http://leepoint.net/notes-java/index.html
+ - http://leepoint.net/notes-java/index.ht
+ - http://stackoverflow.com/questions/4082799/android-how-to-store-cookies/4083144#4083144ml
 
 BROWSER
 -------
