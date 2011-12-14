@@ -1,4 +1,3 @@
-
 From terminal
 
     # logcat
@@ -15,6 +14,11 @@ Package bla.bla.bla has corrupt installation
  - http://www.pawfal.org/dave/blog/category/complaint/
 
  > $ adb shell cat /data/system/packages.list
+
+JAVA
+----
+
+ - http://leepoint.net/notes-java/index.html
 
 BROWSER
 -------
