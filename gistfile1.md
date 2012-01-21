@@ -64,6 +64,7 @@ DEBUGGING
 ---------
 
  - http://omappedia.org/wiki/Android_Debugging
+ - http://www.openintents.org/en/node/23
 
 LOW LEVEL
 ---------
