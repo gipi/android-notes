@@ -71,6 +71,7 @@ LOW LEVEL
 
  - http://www.kandroid.org/online-pdk/guide/build_cookbook.html
  - http://blog.linuxconsulting.ro/2010/04/porting-wifi-drivers-to-android.html
+ - http://bootloader.wikidot.com/linux:boot:android
 
 
 BLOGROLL
