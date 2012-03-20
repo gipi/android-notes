@@ -1,3 +1,4 @@
+
 From terminal
 
     # logcat
@@ -14,6 +15,13 @@ Package bla.bla.bla has corrupt installation
  - http://www.pawfal.org/dave/blog/category/complaint/
 
  > $ adb shell cat /data/system/packages.list
+
+SDCARD
+------
+
+It's the less speedy type of storage of the device.
+
+The ``vold`` demon mounts the sdcard and it's configurated using the ``/etc/vold.fstab`` (older version uses ``vold.conf``)
 
 JAVA
 ----
