@@ -1,4 +1,3 @@
-
 From terminal
 
     # logcat
@@ -90,3 +89,12 @@ BLOGROLL
  - http://blog.stylingandroid.com/
  - http://android.cyrilmottier.com/
  - http://elinux.org/Android_Portal
+
+EMULATOR
+--------
+
+In order to simulate a call in the cellphone
+
+    $ telnet localhost 5554 <<!
+    > gsm call 12345678
+    > !
