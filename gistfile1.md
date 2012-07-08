@@ -66,6 +66,7 @@ PORTING
 
  - http://gstreamer.freedesktop.org/wiki/GstreamerAndroid_InstallInstructions
  - http://mobilepearls.com/labs/native-android-api/
+ - http://stackoverflow.com/questions/11312576/how-would-i-make-an-embedded-android-os-with-just-one-app
 
 DEBUGGING
 ---------
