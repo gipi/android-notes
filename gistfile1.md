@@ -79,6 +79,7 @@ LOW LEVEL
 
  - http://marakana.com/s/remixing_android,1044/index.html
  - http://www.kandroid.org/online-pdk/guide/build_cookbook.html
+ - http://elinux.org/Android_Device
  - http://blog.linuxconsulting.ro/2010/04/porting-wifi-drivers-to-android.html
  - http://bootloader.wikidot.com/linux:boot:android
  - http://android-dls.com/wiki/index.php?title=HOWTO:_Unpack%2C_Edit%2C_and_Re-Pack_Boot_Images
