@@ -57,6 +57,11 @@ RESOURCES
  - http://code.google.com/p/apps-for-android/
  - http://wiresareobsolete.com/2010/06/9-patches/
 
+GAPPS
+-----
+
+ - http://goo.im/gapps/
+
 STYLE
 -----
  - [Defining custom attributes](http://stackoverflow.com/questions/3441396/defining-custom-attrs)
