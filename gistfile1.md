@@ -102,6 +102,8 @@ BLOGROLL
 EMULATOR
 --------
 
+It's possible to use [buildroid](http://www.buildroid.org/) to have a VirtualBox image with Google Apps that is more speedy respect to the qemu one.
+
 In order to simulate a call in the cellphone
 
     $ telnet localhost 5554 <<!
