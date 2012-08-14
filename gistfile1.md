@@ -89,6 +89,7 @@ LOW LEVEL
  - http://bootloader.wikidot.com/linux:boot:android
  - http://android-dls.com/wiki/index.php?title=HOWTO:_Unpack%2C_Edit%2C_and_Re-Pack_Boot_Images
  - system/core/init/readme.txt
+ - http://rxwen.blogspot.it/2010/01/android-property-system.html
 
 
 BLOGROLL
