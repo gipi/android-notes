@@ -100,6 +100,11 @@ BLOGROLL
  - http://android.cyrilmottier.com/
  - http://elinux.org/Android_Portal
 
+BUGS
+----
+
+ - http://corner.squareup.com/2012/08/getting-to-the-bottom.html
+
 EMULATOR
 --------
 
