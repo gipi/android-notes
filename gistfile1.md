@@ -73,6 +73,7 @@ PORTING
  - http://mobilepearls.com/labs/native-android-api/
  - http://stackoverflow.com/questions/11312576/how-would-i-make-an-embedded-android-os-with-just-one-app
  - http://blog.linuxconsulting.ro/2010/04/porting-wifi-drivers-to-android.html
+ - http://www.ankara-gtug.org/2012/01/29/step-by-step-guide-to-building-a-custom-android-device/
 
 DEBUGGING
 ---------
