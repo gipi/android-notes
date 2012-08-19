@@ -107,6 +107,7 @@ BUGS
  - http://portabledroid.wordpress.com/2011/04/19/programmatic-and-layout-fragments/
  - http://stackoverflow.com/questions/7707032/illegalstateexception-when-replacing-a-fragment
 
+
     A fragment that is created as part of a layout has its onCreateView
     method called when it leaves the Fragment.INITIALIZING state.  If
     the fragment is created programmatically its onCreateView method isn’t
