@@ -104,6 +104,8 @@ BUGS
 ----
 
  - http://corner.squareup.com/2012/08/getting-to-the-bottom.html
+ - http://portabledroid.wordpress.com/2011/04/19/programmatic-and-layout-fragments/
+ - http://stackoverflow.com/questions/7707032/illegalstateexception-when-replacing-a-fragment
 
 EMULATOR
 --------
