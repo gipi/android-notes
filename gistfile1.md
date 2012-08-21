@@ -37,6 +37,9 @@ THREAD
 ------
 
 **Don't violate the single thread for the UI** [Painless threading](http://developer.android.com/resources/articles/painless-threading.html)
+ - http://mindtherobot.com/blog/159/android-guts-intro-to-loopers-and-handlers/
+ - http://codinghard.wordpress.com/2009/05/16/android-thread-messaging/
+ - 
 
 ANR
 ---
