@@ -96,6 +96,7 @@ LOW LEVEL
  - system/core/init/readme.txt
  - http://rxwen.blogspot.it/2010/01/android-property-system.html
  - http://www.netmite.com/android/mydroid/1.6/development/ndk/docs/ANDROID-MK.TXT
+ - http://www.slideshare.net/jserv/android-ipc-mechanism
 
 
 BLOGROLL
