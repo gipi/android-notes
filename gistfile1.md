@@ -106,6 +106,7 @@ BLOGROLL
  - http://blog.stylingandroid.com/
  - http://android.cyrilmottier.com/
  - http://elinux.org/Android_Portal
+ - http://www.androiddesignpatterns.com/
 
 BUGS
 ----
