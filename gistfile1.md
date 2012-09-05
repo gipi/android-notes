@@ -97,6 +97,7 @@ LOW LEVEL
  - http://rxwen.blogspot.it/2010/01/android-property-system.html
  - http://www.netmite.com/android/mydroid/1.6/development/ndk/docs/ANDROID-MK.TXT
  - http://www.slideshare.net/jserv/android-ipc-mechanism
+ - http://stackoverflow.com/questions/2442713/view-the-tasks-activity-stack
 
 
 BLOGROLL
