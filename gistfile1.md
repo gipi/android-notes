@@ -99,6 +99,9 @@ LOW LEVEL
  - http://www.slideshare.net/jserv/android-ipc-mechanism
  - http://stackoverflow.com/questions/2442713/view-the-tasks-activity-stack
 
+Launch an app from command line
+
+    $ adb shell am start -n org.ktln2.android.packt/.ActionBarActivity
 
 BLOGROLL
 --------
