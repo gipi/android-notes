@@ -1,0 +1,11 @@
+Cyanogenmod allows to build for your device an Android distribution; in most cases however the official
+repository doesn't contain your device so you must download from another repository with its manifest.
+
+If you don't want to re-download all the things but using the previous donwloaded code, you can use
+a separate manifest from that repository saving it in a temporary location and using it with ``repo sync``
+and its ``-m`` option (using a absolute path to it).
+
+For example in the following commands we use the repository for the motorola
+
+    $ wget https://raw.github.com/kfazz/android/jellybean/default.xml -O .repo/motorola_sholes.xml
+    $ repo sync -m .repo/motorola_sholes.xml -j 6
