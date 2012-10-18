@@ -9,3 +9,25 @@ For example in the following commands we use the repository for the motorola
 
     $ wget https://raw.github.com/kfazz/android/jellybean/default.xml -O .repo/motorola_sholes.xml
     $ repo sync -m .repo/motorola_sholes.xml -j 6
+
+TROUBLESHOOTING
+---------------
+
+    /bin/bash: prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6/bin/arm-linux-androideabi-gcc: cannot execute binary file
+
+go to the prebuilt directory and checkout the revision with the toolchain for x86
+
+    $ cd prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6/
+    "(android-4.1.1_r6.1)" branch :) $ git tag
+    android-4.1.1_r1
+    android-4.1.1_r1.1
+    android-4.1.1_r2
+    android-4.1.1_r3
+    android-4.1.1_r4
+    android-4.1.1_r5
+    android-4.1.1_r6
+    android-4.1.1_r6.1
+    android-4.1.2_r1
+    android-cts-4.1_r1
+    android-sdk-adt_r20
+    "(android-4.1.1_r6.1)" branch :) $ git checkout android-sdk-adt_r20
