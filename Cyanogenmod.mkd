@@ -13,6 +13,8 @@ For example in the following commands we use the repository for the motorola
 TROUBLESHOOTING
 ---------------
 
+First of all, this is the [android-building](http://groups.google.com/group/android-building) group
+
     /bin/bash: prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6/bin/arm-linux-androideabi-gcc: cannot execute binary file
 
 go to the prebuilt directory and checkout the revision with the toolchain for x86
