@@ -10,6 +10,15 @@ For example in the following commands we use the repository for the motorola
     $ wget https://raw.github.com/kfazz/android/jellybean/default.xml -O .repo/motorola_sholes.xml
     $ repo sync -m .repo/motorola_sholes.xml -j 6
 
+HUAWEI8800pro
+-------------
+
+    <?xml version="1.0" encoding="UTF-8"?>
+    <manifest>
+      <project name="Blefish/android_device_huawei_u8800/" path="device/huawei/u8800" remote="github" revision="ics" />
+      <project name="Blefish/android_kernel_huawei_u8800/" path="kernel/huawei/u8800" remote="github" revision="ics_chocolate" />
+    </manifest>
+
 TROUBLESHOOTING
 ---------------
 
