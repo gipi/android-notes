@@ -13,11 +13,15 @@ For example in the following commands we use the repository for the motorola
 HUAWEI8800pro
 -------------
 
+This is the ``local_manifest.xml``
+
     <?xml version="1.0" encoding="UTF-8"?>
     <manifest>
       <project name="Blefish/android_device_huawei_u8800/" path="device/huawei/u8800" remote="github" revision="ics" />
       <project name="Blefish/android_kernel_huawei_u8800/" path="kernel/huawei/u8800" remote="github" revision="ics_chocolate" />
     </manifest>
+
+And this is the modification done in order to made compilable
 
     $ repo diff
 
