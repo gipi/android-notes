@@ -13,7 +13,9 @@ For example in the following commands we use the repository for the motorola
 HUAWEI8800pro
 -------------
 
-This is the ``local_manifest.xml``
+Holding Volume up and Volume down while power on the phone, a pink screen will appear; if you connect the cellphone to your computer with the mini usb cable you can access the partitions like an usb key.
+
+If you want to compile cyanogenmod, this is the ``local_manifest.xml`` used by me
 
     <?xml version="1.0" encoding="UTF-8"?>
     <manifest>
