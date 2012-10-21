@@ -42,6 +42,13 @@ And this is the modification done in order to made compilable
      # Custom releasetools for old partition table.
      TARGET_PROVIDES_RELEASETOOLS := true
 
+before compile
+
+```
+$ cd vendor/cm
+$ ./get-prebuilts
+```
+
 TROUBLESHOOTING
 ---------------
 
