@@ -19,6 +19,23 @@ HUAWEI8800pro
       <project name="Blefish/android_kernel_huawei_u8800/" path="kernel/huawei/u8800" remote="github" revision="ics_chocolate" />
     </manifest>
 
+    $ repo diff
+
+    project device/huawei/u8800/
+    diff --git a/BoardConfig.mk b/BoardConfig.mk
+    index 758a74e..bc866f6 100644
+    --- a/BoardConfig.mk
+    +++ b/BoardConfig.mk
+    @@ -137,7 +137,7 @@ BOARD_FLASH_BLOCK_SIZE := 262144 # (BOARD_KERNEL_PAGESIZE * 64)
+     BOARD_CUSTOM_GRAPHICS := ../../../device/huawei/u8800/recovery/graphics.c
+     BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_10x18.h\"
+     BOARD_HAS_NO_SELECT_BUTTON := true
+    -BOARD_TOUCH_RECOVERY := true
+    +#BOARD_TOUCH_RECOVERY := false
+  
+     # Custom releasetools for old partition table.
+     TARGET_PROVIDES_RELEASETOOLS := true
+
 TROUBLESHOOTING
 ---------------
 
