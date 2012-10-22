@@ -47,6 +47,8 @@ before compile
 ```
 $ cd vendor/cm
 $ ./get-prebuilts
+$ cd device/huawei/u8800
+$ ./extract-files.sh
 ```
 
 TROUBLESHOOTING
