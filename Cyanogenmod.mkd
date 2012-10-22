@@ -25,22 +25,34 @@ If you want to compile cyanogenmod, this is the ``local_manifest.xml`` used by m
 
 And this is the modification done in order to made compilable
 
-    $ repo diff
-
-    project device/huawei/u8800/
-    diff --git a/BoardConfig.mk b/BoardConfig.mk
-    index 758a74e..bc866f6 100644
-    --- a/BoardConfig.mk
-    +++ b/BoardConfig.mk
-    @@ -137,7 +137,7 @@ BOARD_FLASH_BLOCK_SIZE := 262144 # (BOARD_KERNEL_PAGESIZE * 64)
-     BOARD_CUSTOM_GRAPHICS := ../../../device/huawei/u8800/recovery/graphics.c
-     BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_10x18.h\"
-     BOARD_HAS_NO_SELECT_BUTTON := true
-    -BOARD_TOUCH_RECOVERY := true
-    +#BOARD_TOUCH_RECOVERY := false
-  
-     # Custom releasetools for old partition table.
-     TARGET_PROVIDES_RELEASETOOLS := true
+```
+project device/huawei/u8800/
+diff --git a/BoardConfig.mk b/BoardConfig.mk
+index 758a74e..bc866f6 100644
+--- a/BoardConfig.mk
++++ b/BoardConfig.mk
+@@ -137,7 +137,7 @@ BOARD_FLASH_BLOCK_SIZE := 262144 # (BOARD_KERNEL_PAGESIZE * 64)
+ BOARD_CUSTOM_GRAPHICS := ../../../device/huawei/u8800/recovery/graphics.c
+ BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_10x18.h\"
+ BOARD_HAS_NO_SELECT_BUTTON := true
+-BOARD_TOUCH_RECOVERY := true
++#BOARD_TOUCH_RECOVERY := false
+ 
+ # Custom releasetools for old partition table.
+ TARGET_PROVIDES_RELEASETOOLS := true
+diff --git a/proprietary-files.txt b/proprietary-files.txt
+index dbabfed..369dc93 100644
+--- a/proprietary-files.txt
++++ b/proprietary-files.txt
+@@ -2,6 +2,7 @@ bin/qmuxd
+ bin/cnd
+ bin/rmt_storage
+ bin/oem_rpc_svc
++lib/libmmjpeg.so
+ lib/libxml.so
+ lib/libcneutils.so
+ lib/libcneqmiutils.so
+```
 
 before compile
 
