@@ -10,6 +10,11 @@ For example in the following commands we use the repository for the motorola
     $ wget https://raw.github.com/kfazz/android/jellybean/default.xml -O .repo/motorola_sholes.xml
     $ repo sync -m .repo/motorola_sholes.xml -j 6
 
+Links
+~~~~~
+
+ - http://linux-sunxi.org/Starting_a_CyanogenMod_device_tree
+
 HUAWEI8800pro
 -------------
 
