@@ -117,8 +117,8 @@ Understanding the Cyanogenmod is not so easy: these are the simple stuffs that I
 add_launch_combo  <whatever>_<device>-eng
 ```
 
-This is fondamental in order to compile: ``cm.mk``, this recall the ``full_u8800pro`` but you can call
-as you want
+This is fondamental in order to compile: ``cm.mk``, this recall the ``full_u8800pro.mk`` but you can call
+as you want (before ics you MUST call in this way)
 ```
 ## Specify phone tech before including full_phone
 $(call inherit-product, vendor/cm/config/gsm.mk)
