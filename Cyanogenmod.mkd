@@ -106,6 +106,12 @@ go to the prebuilt directory and checkout the revision with the toolchain for x8
     android-sdk-adt_r20
     "(android-4.1.1_r6.1)" branch :) $ git checkout android-sdk-adt_r20
 
+or a shortcuts
+
+```
+$ (cd prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6/ && git checkout android-sdk-adt_r20)
+```
+
 INTERNALS
 ---------
 
