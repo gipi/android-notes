@@ -50,3 +50,14 @@ $(hide) $(ACP) -fp $< $@
 endef
 
 ```
+
+From ``build/target/board/Android.mk``
+
+```Makefile
+ifneq ($(strip $(TARGET_NO_KERNEL)),true)
+  INSTALLED_KERNEL_TARGET := $(PRODUCT_OUT)/kernel
+else
+  INSTALLED_KERNEL_TARGET :=
+endif
+
+```
