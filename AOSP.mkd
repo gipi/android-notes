@@ -10,3 +10,9 @@ Inside ``build/target/board/Android.mk`` is called the AndroidBoard.mk of the ta
 -include $(TARGET_DEVICE_DIR)/AndroidBoard.mk
 
 ```
+
+We have only to know that ``TARGET_DEVICE_DIR`` is defined as
+
+```Makefile
+TARGET_DEVICE_DIR := $(patsubst %/,%,$(dir $(board_config_mk)))
+```
