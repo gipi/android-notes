@@ -8,7 +8,6 @@ Inside ``build/target/board/Android.mk`` is called the AndroidBoard.mk of the ta
 
 ```Makefile
 -include $(TARGET_DEVICE_DIR)/AndroidBoard.mk
-
 ```
 
 We have only to know that ``TARGET_DEVICE_DIR`` is defined as
