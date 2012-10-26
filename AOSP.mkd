@@ -4,7 +4,7 @@
 $ build/tools/findleaves.py --prune=out --prune=.repo --prune=.git . Android.mk
 ```
 
-Inside ``build/target/board/Android.ml`` is called the AndroidBoard.mk of the target device by
+Inside ``build/target/board/Android.mk`` is called the AndroidBoard.mk of the target device by
 
 ```Makefile
 -include $(TARGET_DEVICE_DIR)/AndroidBoard.mk
