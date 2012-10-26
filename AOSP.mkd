@@ -34,4 +34,20 @@ endif
 TARGET_DEVICE_DIR := $(patsubst %/,%,$(dir $(board_config_mk)))
 ```
 
-in ``build/core/config.mk``.
+in ``build/core/config.mk``. Instead in ``build/core/definitions.mk``
+
+```Makefile
+# Copy a prebuilt file to a target location.
+define transform-prebuilt-to-target
+@echo "$(if $(PRIVATE_IS_HOST_MODULE),host,target) Prebuilt: $(PRIVATE_MODULE) ($@)"
+$(copy-file-to-target)
+endef
+```
+
+```Makefile
+define copy-file-to-target
+@mkdir -p $(dir $@)
+$(hide) $(ACP) -fp $< $@
+endef
+
+```
