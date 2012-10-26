@@ -111,6 +111,7 @@ BLOGROLL
  - http://android.cyrilmottier.com/
  - http://elinux.org/Android_Portal
  - http://www.androiddesignpatterns.com/
+ - http://www.grokkingandroid.com
 
 BUGS
 ----
