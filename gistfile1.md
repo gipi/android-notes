@@ -33,6 +33,11 @@ BROWSER
 
  - [Change the User Agent](http://www.abidibo.net/blog/2011/09/26/change-user-agent-android-default-browser/)
 
+Lifecycle
+---------
+
+ - [Three law of android](http://www.youtube.com/watch?v=631T7B8HOv4)
+
 THREAD
 ------
 
