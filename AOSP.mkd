@@ -1,9 +1,54 @@
-``build/core/main.mk`` looks for all the ``Android.mk`` in the AOSP using the command
+First of all ``build/core/main.mk`` looks for all the ``Android.mk`` in the AOSP using the command
 
 ```
 $ build/tools/findleaves.py --prune=out --prune=.repo --prune=.git . Android.mk
 ```
 
+After that in ``build/core/product.mk`` the system build up the ``PRODUCT_MAKEFILES`` variable containing
+all the products available to build:
+
+```Makefile
+#
+# Functions for including AndroidProducts.mk files
+#
+
+#
+# Returns the list of all AndroidProducts.mk files.
+# $(call ) isn't necessary.
+#
+define _find-android-products-files
+$(shell test -d device && find device -maxdepth 6 -name AndroidProducts.mk) \
+  $(shell test -d vendor && find vendor -maxdepth 6 -name AndroidProducts.mk) \
+  $(SRC_TARGET_DIR)/product/AndroidProducts.mk
+endef
+
+#
+# Returns the sorted concatenation of PRODUCT_MAKEFILES
+# variables set in the given AndroidProducts.mk files.
+# $(1): the list of AndroidProducts.mk files.
+#
+define get-product-makefiles
+$(sort \
+  $(foreach f,$(1), \
+    $(eval PRODUCT_MAKEFILES :=) \
+    $(eval LOCAL_DIR := $(patsubst %/,%,$(dir $(f)))) \
+    $(eval include $(f)) \
+    $(PRODUCT_MAKEFILES) \
+   ) \
+  $(eval PRODUCT_MAKEFILES :=) \
+  $(eval LOCAL_DIR :=) \
+ )
+endef
+
+#
+# Returns the sorted concatenation of all PRODUCT_MAKEFILES
+# variables set in all AndroidProducts.mk files.
+# $(call ) isn't necessary.
+#
+define get-all-product-makefiles
+$(call get-product-makefiles,$(_find-android-products-files))
+endef
+```
 Inside ``build/target/board/Android.mk`` is called the AndroidBoard.mk of the target device by
 
 ```Makefile
