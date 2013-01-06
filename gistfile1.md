@@ -88,6 +88,8 @@ DEBUGGING
 
  - http://omappedia.org/wiki/Android_Debugging
  - http://www.openintents.org/en/node/23
+ - http://www.curious-creature.org/2012/12/01/android-performance-case-study/
+ - http://www.curious-creature.org/2012/12/06/android-performance-in-practice/
 
 LOW LEVEL
 ---------
