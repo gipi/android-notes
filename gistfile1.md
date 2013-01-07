@@ -119,6 +119,7 @@ BLOGROLL
  - http://elinux.org/Android_Portal
  - http://www.androiddesignpatterns.com/
  - http://www.grokkingandroid.com
+ - http://www.curious-creature.org
 
 BUGS
 ----
