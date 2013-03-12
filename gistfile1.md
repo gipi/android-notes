@@ -73,6 +73,7 @@ GAPPS
 STYLE
 -----
  - [Defining custom attributes](http://stackoverflow.com/questions/3441396/defining-custom-attrs)
+ - http://www.jayway.com/2013/01/22/custom-typeface-in-android/
 
 PORTING
 -------
