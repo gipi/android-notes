@@ -1,3 +1,5 @@
+http://www.jayway.com/2012/10/24/a-practical-approach-to-the-aosp-build-system/
+
 First of all ``build/core/main.mk`` looks for all the ``Android.mk`` in the AOSP using the command
 
 ```
