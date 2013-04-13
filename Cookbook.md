@@ -112,3 +112,21 @@ ops.add(ContentProviderOperation.newInsert(ContactsContract.RawContacts.CONTENT_
 
         wv.loadUrl("http://www.example.com/");
 ```
+
+**Avoid the webview to scroll when inside a scroll view**
+
+```java
+/**
+ * Inserts into a WebView the htmlContent passed as argument.
+ *
+ * <b>NOTE:</b> the move touch events are removed.
+ */
+static public void insertHTML(WebView wv, String htmlContent) {
+	 wv.setOnTouchListener(new View.OnTouchListener() {
+		public boolean onTouch(View v, MotionEvent event) {
+			 return (event.getAction() == MotionEvent.ACTION_MOVE);
+		}
+	});
+	wv.loadData(htmlContent, "text/html", "UTF-8");
+}
+```
