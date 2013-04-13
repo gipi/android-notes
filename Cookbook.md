@@ -1,6 +1,17 @@
 - [class to download remote resources and implemente Observer pattern and a simple extension of ImageView that use it.](https://gist.github.com/gipi/1393709)
  - [extend BitmapFactory to overlay images.](https://gist.github.com/gipi/1405176)
 
+
+**Layout inflating**
+
+```java
+import android.view.LayoutInflater;
+
+  LayoutInflater inflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+  View view = inflater.inflate(R.layout.my_layout, null);
+```
+
+
 Create preferences
 ------------------
 
