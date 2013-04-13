@@ -1,4 +1,5 @@
-[class to download remote resources and implemente Observer pattern and a simple extension of ImageView that use it.](https://gist.github.com/gipi/1393709)
+- [class to download remote resources and implemente Observer pattern and a simple extension of ImageView that use it.](https://gist.github.com/gipi/1393709)
+ - [extend BitmapFactory to overlay images.](https://gist.github.com/gipi/1405176)
 
 Create preferences
 ------------------
@@ -73,4 +74,30 @@ ops.add(ContentProviderOperation.newInsert(ContactsContract.RawContacts.CONTENT_
 				.withValue(ContactsContract.CommonDataKinds.Phone.TYPE, Contacts.Phones.TYPE_MOBILE)
 				.build());
 		ContentProviderResult[] cprs = getContentResolver().applyBatch(ContactsContract.AUTHORITY, ops);
+```
+
+**Enable javascript and Flash in an Android WebView**
+
+```java
+        WebView wv = (WebView)findViewById(R.id.webViewId);
+        wv.getSettings().setJavaScriptEnabled(true);
+        wv.getSettings().setPluginsEnabled(true);
+```
+
+**webview that handles fixed credentials for authentication**
+
+```java
+        WebView wv = (WebView)findViewById(R.id.webViewId);
+
+        wv.setWebViewClient(new WebViewClient() {
+                public void onReceivedError(WebView view, int errorCode, String description, String failingUrl) {
+                        Toast.makeText(EmbedActivity.this, "Oh no! " + description, Toast.LENGTH_SHORT).show();
+                }
+
+                public void onReceivedHttpAuthRequest(WebView webView, HttpAuthHandler handler, String host, String realm) {
+                        handler.proceed("username", "password");
+                }
+        });
+
+        wv.loadUrl("http://www.example.com/");
 ```
