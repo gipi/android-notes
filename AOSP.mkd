@@ -113,3 +113,9 @@ Recovery&Update.zip
 -------------------
 
 It's possible to update the system using a [zip file containing a script](http://www.londatiga.net/it/how-to-create-android-update-zip-package/). For the code about this functionality look at the [code](https://android.googlesource.com/platform/bootable/recovery/+/refs/heads/ics-plus-aosp/).
+
+Fastboot
+--------
+
+ - http://elinux.org/Android_Fastboot
+ - http://www.omappedia.com/wiki/Android_Fastboot
