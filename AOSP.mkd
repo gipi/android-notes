@@ -117,6 +117,8 @@ It's possible to update the system using a [zip file containing a script](http:/
 Fastboot
 --------
 
+It's not possible to use it with the emulator ([source](https://groups.google.com/forum/?fromgroups=#!topic/android-beginners/IFYCCGxykxY)).
+
  - http://elinux.org/Android_Fastboot
  - http://www.omappedia.com/wiki/Android_Fastboot
 
