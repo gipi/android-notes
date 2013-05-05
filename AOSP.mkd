@@ -119,3 +119,5 @@ Fastboot
 
  - http://elinux.org/Android_Fastboot
  - http://www.omappedia.com/wiki/Android_Fastboot
+
+https://android.googlesource.com/platform/system/core/+/android-4.2.2_r1.2/fastboot/fastboot.c
