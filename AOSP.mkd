@@ -123,3 +123,23 @@ It's not possible to use it with the emulator ([source](https://groups.google.co
  - http://www.omappedia.com/wiki/Android_Fastboot
 
 https://android.googlesource.com/platform/system/core/+/android-4.2.2_r1.2/fastboot/fastboot.c
+
+
+Toolchains
+----------
+
+```
+A=$ANDROID_BUILD_TOP
+TC=/tmp/toolchain-source
+cd $A/ndk/build/tools
+./download-toolchain-sources.sh $TC
+
+
+```
+
+```
+mkdir -p /opt/android-toolchain-repo/
+cd /opt/android-toolchain-repo
+repo init -u https://android.googlesource.com/toolchain/manifest.git
+repo sync
+```
