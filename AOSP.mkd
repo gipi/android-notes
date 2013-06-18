@@ -1,5 +1,11 @@
 http://www.jayway.com/2012/10/24/a-practical-approach-to-the-aosp-build-system/
 
+``LOCAL_MODULE`` is the variable defining a module to build, in order to find where is defined you can use the following piece command
+
+```
+find . ! -path './out/*' -name Android.mk -exec grep -H 'LOCAL_MODULE.*:=.*'<module name> \{\}  \;
+```
+
 First of all ``build/core/main.mk`` looks for all the ``Android.mk`` in the AOSP using the command
 
 ```
