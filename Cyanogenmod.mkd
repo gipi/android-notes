@@ -18,15 +18,23 @@ Links
 HUAWEI8800pro
 -------------
 
-Holding Volume up and Volume down while power on the phone, a pink screen will appear; if you connect the cellphone to your computer with the mini usb cable you can access the partitions like an usb key.
+Holding **Volume up** and **Volume down** while **power** on the phone, a pink screen will appear; if you connect the cellphone to your computer with the mini usb cable you can access the partitions like an usb key.
+
+Holding **Volume up** and **power** instead you can access the recovery.
 
 If you want to compile cyanogenmod, this is the ``local_manifest.xml`` used by me
 
-    <?xml version="1.0" encoding="UTF-8"?>
-    <manifest>
-      <project name="Blefish/android_device_huawei_u8800/" path="device/huawei/u8800" remote="github" revision="ics" />
-      <project name="Blefish/android_kernel_huawei_u8800/" path="kernel/huawei/u8800" remote="github" revision="ics_chocolate" />
-    </manifest>
+```
+
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="Blefish/android_device_huawei_u8800/" path="device/huawei/u8800" remote="github" revision="cm-10.1" />
+  <project name="Blefish/android_vendor_huawei_u8800/" path="vendor/huawei/u8800" remote="github" revision="cm-10.1" />
+  <project name="Blefish/android_kernel_huawei_u8800/" path="kernel/huawei/u8800" remote="github" revision="U8800_M7630AABBQMLZA40901040" />
+  <!--remove-project name="CyanogenMod/android_hardware_qcom_display"/-->
+  <project name="Blefish/android_hardware_qcom_display-msm7x30" path="hardware/qcom/display-msm7x30" remote="github" revision="cm-10.1" />
+</manifest>
+```
 
 And this is the modification done in order to made compilable
 
