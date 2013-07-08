@@ -11,6 +11,16 @@ import android.view.LayoutInflater;
   View view = inflater.inflate(R.layout.my_layout, null);
 ```
 
+Activity starting
+-----------------
+
+
+
+    public void startRicettarioActivity(View view) {
+        Intent i = new Intent(this, RicettarioActivity.class);
+
+        startActivity(i);
+    }
 
 Create preferences
 ------------------
