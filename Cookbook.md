@@ -14,12 +14,21 @@ import android.view.LayoutInflater;
 Activity starting
 -----------------
 
-(source)[http://stackoverflow.com/questions/768969/passing-a-bundle-on-startactivity]
+[source](http://stackoverflow.com/questions/768969/passing-a-bundle-on-startactivity)
 
     public void startRicettarioActivity(View view) {
         Intent i = new Intent(this, RicettarioActivity.class);
+        
+        i.putExtra("miao", 5);
 
         startActivity(i);
+    }
+
+Retrieve parameters
+-------------------
+
+    public void onCreate(Bundle savedInstanceState) {
+    	getIntent().getExtras().getInt("miao");
     }
 
 Create preferences
