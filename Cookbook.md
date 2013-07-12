@@ -31,6 +31,43 @@ Retrieve parameters
     	getIntent().getExtras().getInt("miao");
     }
 
+Filter a SimpleCursorAdapter
+----------------------------
+
+in the Fragment/Activity containing the ListView/Adapter
+
+        // this enables the filtering capabilities
+        mListView.setTextFilterEnabled(true);
+        // pass to the detail when an item is clicked
+                ((EditText)getActivity().findViewById(R.id.search_box))
+                .addTextChangedListener(new TextWatcher() {
+
+                    public void afterTextChanged(Editable s) {
+                    }
+
+                    public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+                    }
+
+                    public void onTextChanged(CharSequence s, int start, int before, int count) {
+                        android.util.Log.d(TAG, "filter with " + s);
+                        // strange enough, if we use mAdapter raise NullPointerException
+                        SimpleCursorAdapter adapter = (SimpleCursorAdapter)mListView.getAdapter();
+                        adapter.getFilter().filter(s);
+                        adapter.notifyDataSetChanged();
+                    }
+                });
+
+In the adapter
+
+            setFilterQueryProvider(new FilterQueryProvider() {
+                @Override
+                public Cursor runQuery(CharSequence charSequence) {
+                    android.util.Log.d(TAG, "runQuery(): " + charSequence);
+                    return new DatabaseMeta(getActivity()).getFilteredRicettario(charSequence.toString());
+                }
+            });
+
+
 Create preferences
 ------------------
 
