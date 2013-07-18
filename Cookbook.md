@@ -31,8 +31,10 @@ Retrieve parameters
     	getIntent().getExtras().getInt("miao");
     }
 
-Filter a SimpleCursorAdapter
+Filter an Adapter
 ----------------------------
+
+http://stackoverflow.com/questions/14365847/how-to-implement-getfilter-with-custom-adapter-that-extends-baseadapter
 
 in the Fragment/Activity containing the ListView/Adapter
 
