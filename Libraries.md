@@ -1,5 +1,4 @@
 
-
 List of interesting libraries
 -----------------------------
  - http://www.androidviews.net/
