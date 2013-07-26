@@ -11,6 +11,12 @@ import android.view.LayoutInflater;
   View view = inflater.inflate(R.layout.my_layout, null);
 ```
 
+oppure
+
+```
+ LayoutInflater inflater = getActivity().getLayoutInflater();
+ 
+```
 Activity starting
 -----------------
 
