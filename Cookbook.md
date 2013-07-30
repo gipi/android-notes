@@ -46,6 +46,21 @@ Retrieve parameters
     	getIntent().getExtras().getInt("miao");
     }
 
+Click programatically on list item
+----------------------------------
+
+                final int last = mListView.getCount() - 1;
+
+                mActionButton.callOnClick();
+                mListView.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        mListView.performItemClick(
+                                mListView.getChildAt(last),
+                                last,
+                                mListView.getItemIdAtPosition(last));
+                    }
+                }, 1000);// FIXME: test if necessary to wait
 Filter an Adapter
 ----------------------------
 
