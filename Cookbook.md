@@ -85,6 +85,16 @@ In the adapter
             });
 
 
+Show/Hide keyboard
+------------------
+
+```java
+        InputMethodManager inputManager = (InputMethodManager)
+                getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
+        inputManager.hideSoftInputFromWindow(getActivity().getCurrentFocus().getWindowToken(),
+                InputMethodManager.HIDE_NOT_ALWAYS);
+```
+
 Create preferences
 ------------------
 
