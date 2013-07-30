@@ -17,6 +17,15 @@ oppure
  LayoutInflater inflater = getActivity().getLayoutInflater();
  
 ```
+
+Programmatically set Layout parameters
+--------------------------------------
+
+```
+ViewGroup.LayoutParams lp = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.FILL_PARENT);
+ 
+```
+
 Activity starting
 -----------------
 
