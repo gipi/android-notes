@@ -59,7 +59,8 @@ Click programatically on list item
 Filter an Adapter
 ----------------------------
 
-http://stackoverflow.com/questions/14365847/how-to-implement-getfilter-with-custom-adapter-that-extends-baseadapter
+ - http://stackoverflow.com/questions/14365847/how-to-implement-getfilter-with-custom-adapter-that-extends-baseadapter
+ - http://www.survivingwithandroid.com/2012/10/android-listview-custom-filter-and.html
 
 in the Fragment/Activity containing the ListView/Adapter
 
