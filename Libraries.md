@@ -6,3 +6,4 @@ List of interesting libraries
  - [ORM](https://github.com/pardom/ActiveAndroid/)
  - [Wheel](https://github.com/ai212983/android-spinnerwheel)
  - [Reordable lista](https://github.com/terlici/DragNDropList)
+ - [Smoothie](https://github.com/lucasr/smoothie): Easy async loading for Android's ListView/GridView
