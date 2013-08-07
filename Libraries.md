@@ -8,3 +8,4 @@ List of interesting libraries
  - [Reordable lista](https://github.com/terlici/DragNDropList)
  - [Smoothie](https://github.com/lucasr/smoothie): Easy async loading for Android's ListView/GridView
  - [AndroidViewClient](https://github.com/dtmilano/AndroidViewClient/): simple library to make more easy use ``moneyrunner``
+ - https://developers.google.com/youtube/android/player/
