@@ -9,3 +9,4 @@ List of interesting libraries
  - [Smoothie](https://github.com/lucasr/smoothie): Easy async loading for Android's ListView/GridView
  - [AndroidViewClient](https://github.com/dtmilano/AndroidViewClient/): simple library to make more easy use ``moneyrunner``
  - https://developers.google.com/youtube/android/player/
+ - http://square.github.io/okhttp/: An HTTP & SPDY client for Android and Java applications
