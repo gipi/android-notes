@@ -10,3 +10,4 @@ List of interesting libraries
  - [AndroidViewClient](https://github.com/dtmilano/AndroidViewClient/): simple library to make more easy use ``moneyrunner``
  - https://developers.google.com/youtube/android/player/
  - http://square.github.io/okhttp/: An HTTP & SPDY client for Android and Java applications
+ - [Sliding up panel](https://github.com/umano/AndroidSlidingUpPanel)
