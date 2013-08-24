@@ -12,3 +12,4 @@ List of interesting libraries
  - http://square.github.io/okhttp/: An HTTP & SPDY client for Android and Java applications
  - [Sliding up panel](https://github.com/umano/AndroidSlidingUpPanel)
  - [Preload database](https://github.com/jgilfelt/android-sqlite-asset-helper)
+ - https://github.com/nhaarman/ListViewAnimations
