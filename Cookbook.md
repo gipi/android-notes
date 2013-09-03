@@ -26,6 +26,14 @@ ViewGroup.LayoutParams lp = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.FI
  
 ```
 
+Prigrammatically change view dimension
+--------------------------------------
+
+        // http://stackoverflow.com/questions/2963152/android-how-to-resize-a-custom-view-programmatically
+        ViewGroup.LayoutParams lp = parent.getLayoutParams();
+        lp.height = 2000;
+        parent.setLayoutParams(lp);
+
 Activity starting
 -----------------
 
