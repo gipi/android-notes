@@ -8,7 +8,7 @@ public View getView(int position, View convertView, ViewGroup parent) {
   ViewHolder holder;
 
  if (convertView == null) {
-   convertView = mInflater.inflate(R.layout.list_item_icon_text, null);
+   convertView = mInflater.inflate(R.layout.list_item_icon_text, parent, false);
    holder = new ViewHolder();
    holder.text = (TextView) convertView.findViewById(R.id.text);
    holder.icon = (ImageView) convertView.findViewById(R.id.icon);
