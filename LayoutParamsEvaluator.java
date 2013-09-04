@@ -1,5 +1,3 @@
-package it.elipse.tnttrackingapp.animation;
-
 import android.view.ViewGroup;
 
 import com.nineoldandroids.animation.IntEvaluator;
