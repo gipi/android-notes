@@ -13,3 +13,4 @@ List of interesting libraries
  - [Sliding up panel](https://github.com/umano/AndroidSlidingUpPanel)
  - [Preload database](https://github.com/jgilfelt/android-sqlite-asset-helper)
  - https://github.com/nhaarman/ListViewAnimations
+ - [Cropper](https://github.com/edmodo/cropper): The Cropper is an image cropping tool. It provides a way to set an image in XML and programmatically, and displays a resizable crop window on top of the image. Calling the method getCroppedImage() will then return the Bitmap marked by the crop window.
