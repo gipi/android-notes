@@ -151,6 +151,31 @@ Fix orientation to portrait
                   />
 ```
 
+Copy data from clipboard
+------------------------
+
+```
+    /**
+     * @return the first item in the clipboard
+     *
+     * http://stackoverflow.com/questions/14189544/copy-with-clipboard-manager-that-supports-old-and-new-android-versions
+     */
+    private CharSequence getClipboardContent() {
+        int sdk = android.os.Build.VERSION.SDK_INT;
+        if(sdk < android.os.Build.VERSION_CODES.HONEYCOMB) {
+            android.text.ClipboardManager clipboard = (android.text.ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
+            return clipboard.getText();
+        } else {
+            android.content.ClipboardManager clipboard = (android.content.ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
+            ClipData data = clipboard.getPrimaryClip();
+            if (data == null)
+                return null;
+            return data.getItemAt(0).getText();
+        }
+    }
+
+```
+
 **Add a telephone number in android contacts not associated with any account on the telephone**
 
 ```java
