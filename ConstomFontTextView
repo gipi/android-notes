@@ -1,0 +1,45 @@
+import android.content.Context;
+import android.graphics.Paint;
+import android.graphics.Typeface;
+import android.util.AttributeSet;
+import android.util.Log;
+import android.widget.TextView;
+
+import java.io.IOException;
+
+/**
+ *
+ * Inspired by <http://stackoverflow.com/questions/9327053/using-custom-font-in-android-textview-using-xml>
+ *
+ */
+public class CustomeFontTextView extends TextView {
+    final static String TAG = "TNTTextView";
+
+    public TNTTextView(Context context) {
+        super(context);
+
+        init(context);
+    }
+
+    public TNTTextView(Context context, AttributeSet attrs) {
+        super(context, attrs);
+
+        init(context);
+    }
+
+    public TNTTextView(Context context, AttributeSet attrs, int defStyle) {
+        super(context, attrs, defStyle);
+
+        init(context);
+    }
+
+    protected void init(Context context) {
+        if (isInEditMode())
+            return;
+
+        setPaintFlags(getPaintFlags() | Paint.SUBPIXEL_TEXT_FLAG);
+
+        Typeface typeface = Typeface.createFromAsset(context.getAssets(), "fonts/gilli_sans_light.TTF");
+        setTypeface(typeface);
+    }
+}
