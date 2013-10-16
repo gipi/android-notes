@@ -1,5 +1,6 @@
 - [class to download remote resources and implemente Observer pattern and a simple extension of ImageView that use it.](https://gist.github.com/gipi/1393709)
  - [extend BitmapFactory to overlay images.](https://gist.github.com/gipi/1405176)
+ - http://blog.iangclifton.com/2010/05/17/sending-html-email-with-android-intent/
 
 
 **Layout inflating**
