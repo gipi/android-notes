@@ -48,6 +48,18 @@ Activity starting
         startActivity(i);
     }
 
+Start navigator
+---------------
+
+```java
+                // see http://stackoverflow.com/questions/16459426/android-navigation-intent
+                Uri routeUri = Uri.parse("http://maps.google.com/maps?&saddr=" +
+                        mLocationClient.getLastLocation().getLatitude() + "," +
+                        mLocationClient.getLastLocation().getLongitude() + "&daddr=" + depot.town +", " + depot.address);
+
+                Intent i = new Intent(Intent.ACTION_VIEW, routeUri);
+                startActivity(i);
+```
 Retrieve parameters
 -------------------
 
