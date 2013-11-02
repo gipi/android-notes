@@ -16,3 +16,4 @@ List of interesting libraries
  - [Cropper](https://github.com/edmodo/cropper): The Cropper is an image cropping tool. It provides a way to set an image in XML and programmatically, and displays a resizable crop window on top of the image. Calling the method getCroppedImage() will then return the Bitmap marked by the crop window.
  - [AndAR](https://code.google.com/p/andar/): is a project that enables Augmented Reality on the Android platform.
  - https://github.com/futuresimple/android-db-commons : ContentProvider and Loader with fluent syntax
+ - https://github.com/hqwang/pinned-section-listview/
