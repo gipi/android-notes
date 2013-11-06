@@ -1,0 +1,4 @@
+
+Obtain info about an APK
+
+ $ aapt dump badging <application.apk>
