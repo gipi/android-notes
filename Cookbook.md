@@ -270,3 +270,8 @@ static public void insertHTML(WebView wv, String htmlContent) {
 	wv.loadData(htmlContent, "text/html", "UTF-8");
 }
 ```
+
+Retrieve UUID
+-------------
+
+http://blog.vogella.com/2011/04/11/android-unique-identifier/
