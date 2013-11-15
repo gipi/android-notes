@@ -70,6 +70,8 @@ Retrieve parameters
 Click programatically on list item
 ----------------------------------
 
+Take in mind that the ``getChildAt()`` argument must take into account the ``getFirstVisiblePosition()``
+
                 final int last = mListView.getCount() - 1;
 
                 mListView.performItemClick(
