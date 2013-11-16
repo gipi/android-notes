@@ -17,3 +17,4 @@ List of interesting libraries
  - [AndAR](https://code.google.com/p/andar/): is a project that enables Augmented Reality on the Android platform.
  - https://github.com/futuresimple/android-db-commons : ContentProvider and Loader with fluent syntax
  - https://github.com/hqwang/pinned-section-listview/
+ - https://github.com/googlemaps/android-maps-utils
