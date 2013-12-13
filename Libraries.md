@@ -18,3 +18,4 @@ List of interesting libraries
  - https://github.com/futuresimple/android-db-commons : ContentProvider and Loader with fluent syntax
  - https://github.com/hqwang/pinned-section-listview/
  - https://github.com/googlemaps/android-maps-utils
+ - [GoogleDateTimePickers](https://github.com/Mirkoddd/GoogleDateTimePickers): New Google Date and time pickers
