@@ -19,3 +19,4 @@ List of interesting libraries
  - https://github.com/hqwang/pinned-section-listview/
  - https://github.com/googlemaps/android-maps-utils
  - [GoogleDateTimePickers](https://github.com/Mirkoddd/GoogleDateTimePickers): New Google Date and time pickers
+ - [A ListView for Android that has iOS-like sections and section headers](http://applidium.github.io/HeaderListView/)
