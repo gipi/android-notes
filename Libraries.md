@@ -21,3 +21,4 @@ List of interesting libraries
  - [GoogleDateTimePickers](https://github.com/Mirkoddd/GoogleDateTimePickers): New Google Date and time pickers
  - [A ListView for Android that has iOS-like sections and section headers](http://applidium.github.io/HeaderListView/)
  - [SuperToasts](https://github.com/JohnPersano/SuperToasts): enhanced toast, with buttons, also crouton like
+ - [Scroll + discover = DiscrollView](https://github.com/flavienlaurent/discrollview)
