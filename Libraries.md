@@ -24,3 +24,4 @@ List of interesting libraries
  - [Scroll + discover = DiscrollView](https://github.com/flavienlaurent/discrollview)
  - https://github.com/hdodenhof/CircleImageView
  - https://github.com/MatthewYork/Colours
+ - https://github.com/hardik-trivedi/FloatingLabel
