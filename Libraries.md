@@ -25,3 +25,4 @@ List of interesting libraries
  - https://github.com/hdodenhof/CircleImageView
  - https://github.com/MatthewYork/Colours
  - https://github.com/hardik-trivedi/FloatingLabel
+ - https://github.com/pedrovgs/DraggablePanel
