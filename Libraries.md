@@ -26,3 +26,4 @@ List of interesting libraries
  - https://github.com/MatthewYork/Colours
  - https://github.com/hardik-trivedi/FloatingLabel
  - https://github.com/pedrovgs/DraggablePanel
+ - https://github.com/alexvasilkov/FoldableLayout
