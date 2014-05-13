@@ -27,3 +27,4 @@ List of interesting libraries
  - https://github.com/hardik-trivedi/FloatingLabel
  - https://github.com/pedrovgs/DraggablePanel
  - https://github.com/alexvasilkov/FoldableLayout
+ - https://github.com/hoang8f/android-flat-button
