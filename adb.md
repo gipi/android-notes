@@ -15,6 +15,12 @@ If for some reason you need to use the ``TCP``
     $ adb connect 192.168.1.6
     connected to 192.168.1.6:5555
 
+The diagram shows the internal mechanism
+
+    $ lsof -p `pidof adb`
+    ...
+    adb     21512 gipi   11u   CHR              189,4      0t0 1185310 /dev/bus/usb/001/005
+
 Link
 ----
 
