@@ -14,3 +14,8 @@ If for some reason you need to use the ``TCP``
     restarting in TCP mode port: 5555
     $ adb connect 192.168.1.6
     connected to 192.168.1.6:5555
+
+Link
+----
+
+ - http://www.slideshare.net/tetsu.koba/adbandroid-debug-bridge-how-it-works
