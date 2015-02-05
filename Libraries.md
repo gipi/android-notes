@@ -33,3 +33,8 @@ List of interesting libraries
  - http://android-arsenal.com/
  - [Custom control video player](http://www.malmstein.com/blog/2014/08/09/how-to-use-a-textureview-to-display-a-video-with-custom-media-player-controls/)
  - [tinybus](https://github.com/beworker/tinybus): A lightweight and simple event bus tailored for Android
+
+Tools
+-----
+
+ - https://medium.com/sebs-top-tips/tools-of-the-trade-part-2-b91271892d10
