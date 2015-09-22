@@ -1,4 +1,5 @@
 name: Android Notes
+baseurl: /android-notes
 markdown: kramdown
 markdown: redcarpet
 redcarpet:
