@@ -1,3 +1,7 @@
+---
+layout: default
+title: Cyanogenmod
+---
 Cyanogenmod allows to build for your device an Android distribution; in most cases however the official
 repository doesn't contain your device so you must download from another repository with its manifest.
 

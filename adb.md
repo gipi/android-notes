@@ -1,3 +1,7 @@
+---
+layout: default
+title: adb
+---
 for a new device
 
 ```

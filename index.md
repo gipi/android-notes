@@ -1,4 +1,7 @@
-[Command line](#file-command-line) | [ADB](#file-adb-md) | [NDK](#file-ndk-md) | [Librerie](#file-libraries-md)
+---
+layout: default
+title: Home
+---
 
  - [Gradle syntax video](https://www.youtube.com/watch?v=fHhf1xG0pIA)
  - http://chris.banes.me/2014/07/04/palette-preview/

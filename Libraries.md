@@ -1,3 +1,7 @@
+---
+layout: default
+title: Libraries
+---
 List of interesting libraries
 -----------------------------
  - http://www.androidviews.net/
